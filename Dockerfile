@@ -6,6 +6,6 @@ COPY . /app/
 
 RUN npm install
 
-EXPOSE 8050
+EXPOSE 9090
 
 CMD [ "node", "server.js" ]
